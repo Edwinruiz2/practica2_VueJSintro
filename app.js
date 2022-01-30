@@ -37,6 +37,7 @@ hide.addEventListener('click',() => {
         let list = document.querySelector('ul');
         let li = document.querySelector('li:last-child');
         list.removeChild(li);
+        200=setTimeout;
     });
     
     //Obtener index del elemento seleccionado
@@ -75,7 +76,7 @@ hide.addEventListener('click',() => {
         let divAlert = document.createElement('div');
         let label = document.createElement('label');
         label.innerHTML= 'Se eliminó el elemento ' +index;
-        200=setTimeout;
+       
         divAlert.classList.add('alert', 'alert-danger'); //Clase de la alerta
 
         items[index].parentNode.removeChild(items[index]);
