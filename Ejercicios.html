@@ -18,6 +18,13 @@
         </ul>
     </div>
     <div class="dropdown-divider"></div>
+    
+    
+    <div id="ejercicio4" class="p-3 mb-2 bg-danger bg-opacity-25">
+        <p v-html="titulo1" class="p-3 mb-2 bg-danger bg-opacity-50"></p>
+        <p v-html="nombres"></p> 
+    </div>
+    <div class="dropdown-divider"></div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -35,5 +42,15 @@
 
       })
     </script>
+    
+    <script> 
+      var u= new Vue({
+         el:'#ejercicio4',
+         data:{
+            titulo1:"<b><h2><center>Integrantes</center></b></h2>",
+             nombres:"<b><h2>* Edwin Oswaldo Ruiz López.<br><br>* Ana Iveth García Ulloa.</b></h2>",
+           },
+     })
+   </script>
 </body>
 </html>
