@@ -81,4 +81,6 @@ hide.addEventListener('click',() => {
         items[index].parentNode.removeChild(items[index]);
         divAlert.appendChild(label);
         showDiv.appendChild(divAlert);
+        
+        setTimeout(function(){divAlert.remove();},5000);// Se oculta la alerta pasados 5 segundos
     }); 
