@@ -37,7 +37,7 @@ hide.addEventListener('click',() => {
         let list = document.querySelector('ul');
         let li = document.querySelector('li:last-child');
         list.removeChild(li);
-        200=setTimeout;
+        
     });
     
     //Obtener index del elemento seleccionado
